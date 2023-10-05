@@ -20,12 +20,11 @@ justify-content: center;
 align-items: center;
 
 ::before {
-  content: "";
+  content:"";
   background: url("images/burgerandfries-background.jpg") rgba(0,0,0,0.7);
   background-size: cover;
   background-position: center;
   background-blend-mode: darken;
-
   position: absolute;
   top: 0;
   left: 0;
