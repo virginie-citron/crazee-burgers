@@ -55,8 +55,8 @@ padding: 2.5rem ${ theme.spacing.lg };
 border-radius: ${ theme.borderRadius.round };
 font-family: "Amatic SC", cursive;
 hr{
-  border: 1.5px ${ theme.colors.loginLine };
-  margin-bottom:${ theme.gridUnite * 5 }px;
+  border: 1.5px solid ${ theme.colors.loginLine };
+  margin-bottom:${ theme.gridUnit * 5 }px;
 }
 h1{
 color: ${ theme.colors.white };
