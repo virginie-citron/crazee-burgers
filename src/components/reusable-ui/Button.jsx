@@ -42,14 +42,4 @@ border: 1px solid#ff9f1b;
   opacity: 0.6;
   cursor: not-allowed;
 }
-
-
-
-
-
-
-
-
-
-  
 `;
