@@ -7,9 +7,15 @@ export default function Navbar( { username } ) {
 
     return (
         <NavbarStyled>
-            <h1>Bonjour {username}</h1>
-            <Link to="/">
-                <button>Déconnexion</button></Link>
+            <div className="left-side">Left Side</div>
+            <div className="right-side">
+                Right-side
+                <h1>Bonjour {username}</h1>
+                <Link to="/">
+                    <button>Déconnexion</button>
+                </Link>
+            </div>
+
         </NavbarStyled>
     )
 }
@@ -17,4 +23,19 @@ export default function Navbar( { username } ) {
 const NavbarStyled = styled.nav`
 background: blue;
 height: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+.left-side{
+background: pink;
+}
+
+.right-side{
+
+background: violet;
+}
+
+
 `;
