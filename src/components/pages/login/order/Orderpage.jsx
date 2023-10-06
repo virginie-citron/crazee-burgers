@@ -1,5 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 import styled from "styled-components";
+import Navbar from "./Navbar";
+import Main from "./Main";
 
 
 export default function Orderpage() {
@@ -10,13 +12,8 @@ export default function Orderpage() {
     return (
         <OrderpageStyled>
             <div className="container">
-                <div className="navbar">
-                    <h1>Bonjour {username}</h1>
-                    <Link to="/">
-                        <button>Déconnexion</button></Link>
-                </div>
-                <div className="main">Reste</div>
-
+                <Navbar username={username} />
+                <Main />
             </div>
         </OrderpageStyled>
     )
@@ -38,15 +35,9 @@ display: flex;
 flex-direction: column;
 
 }
-.navbar{
-background: blue;
-height: 10vh;
-}
 
-.main{
-background: yellow;
-flex:1;
-}
+
+
 
 
 `;
