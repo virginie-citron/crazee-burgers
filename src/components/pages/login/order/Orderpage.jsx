@@ -10,9 +10,13 @@ export default function Orderpage() {
     return (
         <OrderpageStyled>
             <div className="container">
-                <h1>Bonjour {username}</h1>
-                <Link to="/">
-                    <button>Déconnexion</button></Link>
+                <div className="navbar">
+                    <h1>Bonjour {username}</h1>
+                    <Link to="/">
+                        <button>Déconnexion</button></Link>
+                </div>
+                <div className="main">Reste</div>
+
             </div>
         </OrderpageStyled>
     )
@@ -30,8 +34,19 @@ align-items: center;
 background: red;
 height:95vh;
 width: 1400px;
+display: flex;
+flex-direction: column;
+
+}
+.navbar{
+background: blue;
+height: 10vh;
 }
 
+.main{
+background: yellow;
+flex:1;
+}
 
 
 `;
