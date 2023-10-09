@@ -19,7 +19,7 @@ export default function Navbar( { username } ) {
 
 const NavbarStyled = styled.nav`
 background: blue;
-height: 10vh;
+height: 15vh;
 display: flex;
 justify-content: space-between;
 align-items: center;
