@@ -3,9 +3,9 @@ import { theme } from "../../theme/index"; // Utilisez la déstructuration pour 
 
 
 
-export default function Logo() {
+export default function Logo( { className } ) {
   return (
-    <LogoStyled>
+    <LogoStyled className={className}>
       <h1>CRAZEE</h1>
       <img src="/images/logo-orange.png" alt="logo-crazee-burger" />
       <h1>BURGER</h1>
@@ -15,8 +15,7 @@ export default function Logo() {
 const LogoStyled = styled.div`
   display: flex;
   align-items: center;
-
-
+  
 h1{
     display: inline;
     text-align: center;
