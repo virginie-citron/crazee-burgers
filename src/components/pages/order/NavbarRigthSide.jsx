@@ -6,16 +6,8 @@ import Profile from "./Profile";
 export default function NavbarRigthSide( { username } ) {
     return (
         <NavbarRigthSideStyled >
-            <div className="admin-button">Admin Button</div>
-            <Profile />
-            {/* 
-            <div className="profile">
-                <p>Bonjour {username}</p>
-                <Link to="/">
-                    <button>Déconnexion</button>
-                </Link>
-            </div> */}
-
+            {/* <div className="admin-button">Admin Button</div> */}
+            <Profile username={username} />
         </NavbarRigthSideStyled>
     )
 }
