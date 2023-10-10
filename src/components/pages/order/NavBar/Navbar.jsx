@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import NavbarRigthSide from "./NavbarRigthSide";
 import Logo from "/src/components/reusable-ui/Logo.jsx"
-import { theme } from "../../../theme";
+import { theme } from "../../../../theme";
 
 export default function Navbar( { username } ) {
 

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { theme } from "../../../theme";
+import { theme } from "../../../../theme";
 
 
 export default function Main() {
@@ -7,7 +7,7 @@ export default function Main() {
         <MainStyled>
             <div className="basket">Basket</div>
             <div className="menu">Menu</div>
-            .
+
         </MainStyled>
     )
 }
