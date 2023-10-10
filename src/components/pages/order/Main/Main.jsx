@@ -1,12 +1,13 @@
 import styled from "styled-components";
 import { theme } from "../../../../theme";
+import Menu from "./Menu";
 
 
 export default function Main() {
     return (
         <MainStyled>
             <div className="basket">Basket</div>
-            <div className="menu">Menu</div>
+            <Menu />
 
         </MainStyled>
     )
@@ -26,12 +27,5 @@ grid-template-columns: 25% 1fr;
 .basket{
     background: blue;
 }
-
-.menu{
-background: green;}
-
-
-
-
 
 `;
