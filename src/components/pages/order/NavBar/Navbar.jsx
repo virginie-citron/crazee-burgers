@@ -2,7 +2,7 @@
 import styled from "styled-components";
 import NavbarRigthSide from "./NavbarRigthSide";
 import Logo from "/src/components/reusable-ui/Logo.jsx"
-import { theme } from "../../../theme";
+import { theme } from "../../../../theme";
 
 export default function Navbar( { username } ) {
 
@@ -25,6 +25,7 @@ align-items: center;
 padding: 0 20px;
 border-top-left-radius:${ theme.borderRadius.extraRound };
 border-top-right-radius:${ theme.borderRadius.extraRound };
+border-bottom: 1px solid ${ theme.colors.greyLight };
 
 .left-side{
 background: pink;
